@@ -8,11 +8,11 @@ This script extract informations about annotations from FLIR thermal_annotations
   Example:
   3 0.41875 0.490234375 0.20625 0.23828125
   
-  3 - class
-  0.41875 - box center coordinate x / image width
-  0.490234375 - box center coordinate y / image height
-  0.20625 - box width / image width
-  0.23828125 - box height / image height
+  3 - class  
+  0.41875 - box center coordinate x / image width  
+  0.490234375 - box center coordinate y / image height  
+  0.20625 - box width / image width  
+  0.23828125 - box height / image height  
   
 ## How to use:
 1. Change source_path (line 22) - folder with thermal_annotations.json file 
