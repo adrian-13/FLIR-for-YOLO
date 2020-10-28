@@ -5,15 +5,16 @@ Transfer FLIR thermal dataset annotations to YOLO annotations format.
 This script extract informations about annotations from FLIR thermal_annotations.json file and transfer it to text file. Each text file consist annotations about one image.  
 The format is:  
 
-c / bx / by / bw / bh  
-c -  class  
-bx - box center coordinate x / image width  
-by - box center coordinate y / image height  
-bw - box width / image width  
-bh - box height / image height
+**c / bx / by / bw / bh**  
+
+**c** -  class  
+**bx** - box center coordinate x / image width  
+**by** - box center coordinate y / image height  
+**bw** - box width / image width  
+**bh** - box height / image height  
+
   
-  
-  Example:
+  **Example:**
   3 0.41875 0.490234375 0.20625 0.23828125
    
    
