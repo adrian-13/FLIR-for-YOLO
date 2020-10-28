@@ -17,3 +17,10 @@ def convertor(source_path, number_of_images, destination_path):
       if (counter >= number_of_images):
         print("Conversion successfully!" )
         break
+
+        
+source_path = " "
+number_of_images = None
+destination_path = " "
+
+convertor(source_path, number_of_images, destination_path)
