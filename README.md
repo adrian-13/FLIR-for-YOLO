@@ -14,7 +14,7 @@ The format is:
 **bh** - box height / image height  
 
   
-  ###**Example:**
+  ### **Example:**
   3 0.41875 0.490234375 0.20625 0.23828125
    
    
