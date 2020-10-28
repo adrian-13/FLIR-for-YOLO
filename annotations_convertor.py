@@ -15,5 +15,5 @@ def convertor(source_path, number_of_images, destination_path):
           print(p['bbox'][3] / 512, file=open(destination_path + '/FLIR_0{:04d}.txt'.format(counter + 1), 'a'))
       counter += 1
       if (counter >= number_of_images):
-        print("Convertion succesfully!" )
+        print("Conversion successfully!" )
         break
