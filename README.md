@@ -28,6 +28,6 @@ The format is:
 1. Change source_path (line 22) - folder with thermal_annotations.json file 
 2. Change number_of_images (line 23) - 8862 (number of dataset image labels)
 3. Change destination path (line 24) - folder where annotations will be created
-4. Type: python convertor.py 
+4. Type: `python annotations_convertor.py` 
 
 * Conversion takes approx one minute.
