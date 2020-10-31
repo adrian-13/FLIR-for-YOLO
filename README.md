@@ -2,7 +2,7 @@
 Transfer FLIR thermal dataset annotations to YOLO annotations format. 
 
 ## About
-This script extract informations about annotations from FLIR thermal_annotations.json file and transfer it to text file. Each text file consists of annotations about one image.  
+This script extract informations about annotations from FLIR thermal_annotations.json file and transfer it into the text files. Each text file consists of annotations about one image.  
 The format is:  
 
 [**c**,  **bx**, **by**, **bw**, **bh**]
