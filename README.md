@@ -22,10 +22,8 @@ The format is:
   0.20625 - box width / image width  
   0.23828125 - box height / image height  
   
-## How to use:
-1. Change source_path (line 22) - folder with thermal_annotations.json file 
-2. Change number_of_images (line 23) - 8862 (number of dataset image labels)
-3. Change destination path (line 24) - folder where annotations will be created
-4. Type: `python annotations_convertor.py` 
+## How to use:  
+Type: `python annotations_convertor.py -src "source folder" -dst "destinaion folder"`  
+Example: `python annotations_convertor.py src "/content/thermal_annotations.json" -dst "/content/Thermal_dataset/"`
 
 * Conversion takes approx one minute.
